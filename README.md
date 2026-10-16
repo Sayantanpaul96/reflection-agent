@@ -4,6 +4,12 @@ A minimal, code-first example of a reflection loop in an LLM-powered agent syste
 
 The implementation is intentionally small and readable: a LangGraph state graph orchestrates a generation step and a reflection step, while LangChain and Anthropic provide the LLM integration.
 
+Reflection is a prompting strategy used to imporve the quality and success rate of agents and similar AI Systems.
+
+They prompt the LLMs to reflect on its past actions allowing it prompt and learn overtime.
+
+![Reflection Architecture](https://cdn.prod.website-files.com/65c81e88c254bb0f97633a71/69cbb0172c87c962360c6c71_reflection.png)
+
 ## Table of contents
 
 - [Overview](#overview)
